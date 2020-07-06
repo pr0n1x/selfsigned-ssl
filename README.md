@@ -1,5 +1,8 @@
 # Создание самоподписанных сертификатов
 
+Данные скрипты созданы по инструкции  
+https://habr.com/ru/post/352722/
+
 Клонировать репозиторий
 - `$ git clone https://github.com/pr0n1x/selfsigned-ssl.git ~/path/to/selfsigned-ssl`
 - `$ cd ~/path/to/selfsigned-ssl`
