@@ -21,7 +21,7 @@ https://habr.com/ru/post/352722/
 - `$ sudo ln -s ~/path/to/selfsigned-ssl ssl`
 
 Добавляем подключение сертификата для виртуального хоста (/etc/apache2/site-enabled/my-domain.loc.conf).
-Подставте вместо $host имя вашего виртуального хоста (или используйте apache mod_macro).  
+Подставьте вместо $host имя вашего виртуального хоста (или используйте apache mod_macro).  
 ```
 <VirtualHost ${APACHE_LOCALHOST_IP}:443 ${APACHE_EXTERNAL_IP}:443>
 	ServerName $host
