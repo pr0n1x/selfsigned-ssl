@@ -1,0 +1,8 @@
+*
+!/*.sh
+!/settings.ext
+!/README.md
+!/cert
+/cert/*
+!.gitignore
+!.gitkeep
