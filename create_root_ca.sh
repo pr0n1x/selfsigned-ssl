@@ -6,7 +6,7 @@
 cwd=`dirname $0`
 cd $cwd
 
-CERT_FOLDER=cert
+CERT_FOLDER="${CERT_FOLDER:-"cert"}"
 
 if [ -f "${CERT_FOLDER}/rootCA.key" ] \
 || [ -f "${CERT_FOLDER}/rootCA.pem" ] \

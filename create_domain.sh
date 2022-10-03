@@ -12,9 +12,9 @@ then
 	exit;
 fi
 
-DOMAIN=$1
-COMMON_NAME=${2:-$1}
-CERT_FOLDER=cert
+DOMAIN="$1"
+COMMON_NAME="${2:-$1}"
+CERT_FOLDER="${CERT_FOLDER:-"cert"}"
 
 if [ -f ${CERT_FOLDER}/${DOMAIN}.key ]; then
 	KEY_OPT="-key"
